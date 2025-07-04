@@ -236,6 +236,9 @@ Section:NewButton("Washing Machine", "Teleport Washing Machine Into Grinder", fu
   game.Workspace.Items.Washing Machine.Main.CFrame = 21.586, 7.753, -5.102
 end)
 local Section = Tab:NewSection("Cultist Gem")
+Section:NewButton("Cultist Gem", "Teleport Cultist Gem Into Grinder", function()
+  game.Workspace.Items.Cultist Gem.Main.CFrame = 21.586, 7.753, -5,102
+end)
 local Tab = Window:NewTab("Wood")
 local Section = Tab:NewSection("Teleports Wooden Items Into Grinder")
 Section:NewButton("Log", "Teleport Log Into Grinder", function()
@@ -266,11 +269,18 @@ Section:NewButton("Alpha Wolf Corpse", "Teleport Alpha Wolf Corpse Into The Fire
   game.Workspace.Items.Alpha Wolf Corpse.Main.CFrame = 0.028, 11.375, -0.31
 end)
 Section:NewButton("Bear Corpse", "Teleport Bear Corpse Into The Fire", function()
-  game.Workspace.Items.Bear Corpse.Main.CFrame = 0.028, 11.375, -0.31)
+  game.Workspace.Items.Bear Corpse.Main.CFrame = 0.028, 11.375, -0.31
+end)
+Section:NewButton("Cultist Corpse", "Teleport Cultist Corpse Into The Fire", function()
+  game.Workspace.Items.Cultist.Main.CFrame = 0.028, 11.375, -0.31
+end)
+Section:NewButton("Crossbow Cultist Corpse", "Teleport Crossbow Cultist Corpse Into The Fire", function()
+  game.Workspace.Items.Crossbow Cultist.Main.CFrame = 0.028, 11.375, -0.31
+end)
 local Tab = Window:NewTab("Consumable")
 local Section = Tab:NewSection("Teleport Consumable To Player")
 Section:NewButton("Bandage", "Teleport Bandage To Player", function()
-  game.Workspace.Items.Bandage.Main.CFrame = game.Workspace,FriskHornet27.HumanoidRootPart.CFrame
+  game.Workspace.Items.Bandage.Main.CFrame = game.Workspace.FriskHornet27.HumanoidRootPart.CFrame
 end)
 Section:NewButton("MedKit", "Teleport MedKit To Player", function()
   game.Workspace.Items.MedKit.Main.CFrame = game.Workspace.FriskHornet27.HumanoidRootPart.CFrame
@@ -306,7 +316,7 @@ Section:NewButton("Morsel", "Teleport Morsel To Player", function()
 end)
 local Section = Tab:NewSection("Teleport Cooked Food To Player")
 Section:NewButton("Cooked Steak", "Teleport Cooked Steak to Player", function()
-  game.Workspace.Items.Cooked Steak.Main.CFrame = game.Workspace,FriskHornet27.HumanoidRootPart.CFrame
+  game.Workspace.Items.Cooked Steak.Main.CFrame = game.Workspace.FriskHornet27.HumanoidRootPart.CFrame
 end)
 Section:NewButton("Cooked Morsel", "Teleport Cooked Morsel to Player", function()
   game.Workspace.Items.Cooked Morsel.Main.CFrame = game.Workspace.FriskHornet27.HumanoidRootPart.CFrame
